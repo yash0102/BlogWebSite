@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Sans&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-shadow: 1px 3px 9px rgba(0,0,0,0.6);   
+}
+
+header{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+section{
+    min-height: 100vh;
+}
+.logo{
+    width: 50px;
+}
